@@ -1,5 +1,53 @@
+/* Erik Petersen Week 3-Day 2: Responsive Design...but not really */
+
+@media screen and (max-width: 480px) {
+
+  .col-1,
+  .col-2,
+  .col-3 {
+    position: relative;
+    float: left;
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  /*li {
+    box-sizing: border-box;
+    position: relative;
+    right: 2em;
+    float: left;
+    width: 16.66%;
+    margin: 0 auto;
+  }*/
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px){
+
+  .col-1,
+  .col-2,
+  .col-3 {
+    position: relative;*/
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  /*li {
+    box-sizing: border-box;
+    position: relative;
+    right: 2em;
+    float: left;
+    width: 16.66%;
+    margin: 0 auto;
+  }*/
+
+}
+
 body {
   font-family: "Lato", sans-serif;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .grid-container {
@@ -8,6 +56,11 @@ body {
 
 .cat-list {
   list-style: none;
+}
+
+.row {
+  width: 100%;
+  margin: auto;
 }
 
 .row:before,
